@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -143,7 +143,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cliente.cpp" />
+    <ClCompile Include="ConexionBD.cpp" />
     <ClCompile Include="CRUD mysql_c.cpp" />
+    <ClCompile Include="Persona.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="ConexionBD.h" />
+    <ClInclude Include="Persona.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
